@@ -49,9 +49,9 @@ with app.app_context():
 
 # Load all models
 blood_model = joblib.load("models/disease_model.pkl")
-cardio_model = joblib.load("cardio_model.pkl")
-diabetes_model = joblib.load("diabetes_model.pkl")
-heart_model = joblib.load("heart_model.pkl")
+cardio_model = joblib.load("models/cardio_model.pkl")
+diabetes_model = joblib.load("models/diabetes_model.pkl")
+heart_model = joblib.load("models/heart_model.pkl")
 
 # Insights functions per dataset
 def blood_insights(features):
