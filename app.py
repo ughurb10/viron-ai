@@ -48,7 +48,7 @@ with app.app_context():
     db.create_all()
 
 # Load all models
-blood_model = joblib.load("disease_model.pkl")
+blood_model = joblib.load("models/disease_model.pkl")
 cardio_model = joblib.load("cardio_model.pkl")
 diabetes_model = joblib.load("diabetes_model.pkl")
 heart_model = joblib.load("heart_model.pkl")
